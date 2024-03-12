@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+        Survey Google Form
+    </title>
+
+
+        <style>
+    
+            body {
+    
+                background-color: #0077b5;
+    
+                font-family: Verdana;
+    
+                text-align: center;
+    
+            }
+     
+    
+            /* Styling the Form (Color, Padding, Shadow) */
+    
+            form {
+    
+                background-color: #fff;
+    
+                max-width: 400px;
+    
+                margin: 50px auto;
+    
+                padding: 20px 30px;
+    
+                box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    
+            }
+     
+    
+            /* Styling form-control Class */
+    
+            .form-control {
+    
+                text-align: left;
+    
+                margin-bottom: 20px;
+    
+            }
+     
+             /* Styling form-control Label */
+
+            .form-control label {
+
+               display: block;
+
+               margin-bottom: 10px;
+
+            }
+
+
+            /* Styling form-control input, 
+
+            select, textarea */
+
+            .form-control input,
+
+            .form-control select,
+
+            .form-control textarea {
+
+              border: 1px solid #777;
+
+              border-radius: 2px;
+
+              font-family: inherit;
+
+              padding: 10px;
+
+              display: block;
+
+              width: 95%;
+
+            }
+
+
+            /* Styling form-control Radio 
+
+            button and Checkbox */
+
+            .form-control input[type="radio"],
+
+              .form-control input[type="checkbox"] {
+
+               display: inline-block;
+
+               width: auto;
+
+            }
+            /* Styling Button */
+
+            button {
+
+             background-color: #0077b5;
+
+             border: 1px solid #777;
+
+             border-radius: 2px;
+
+             font-family: inherit;
+
+             font-size: 21px;
+
+             display: block;
+
+             width: 100%;
+
+             margin-top: 50px;
+
+             margin-bottom: 20px;
+
+            }
+
+</style>
+</head>
+<body>
+    <h1> linkedin Survey Form </h1>
+    <form id="form">
+        <div class="form-control">
+            <label for="Profile Information" id="label Profile Information">
+                Profile Information
+            </label>
+            <input type="text" id="Profile Information"
+            placeholder="Name"/>
+            <input type="text" id="Profile Information"
+            placeholder="Current Job Tittle"/>
+            <input type="text" id="Profile Information"
+            placeholder="Industry"/>
+            
+            
+                
+        </div>
+        <div class="form-control">
+            <label for="Profesional Background" id="profesional Background ">
+                Profesional Background
+            </label>
+            <input type="text" id="Profesional Background"
+            placeholder="Years of experience" />
+            <input type="text" id="Profesional Background"
+            placeholder="Previous roles and Responsibilities" />
+
+                
+        </div>
+        
+        <div class="form-control">
+            <label for="Skills and Expertise" id="Skills and Expertise">
+                Skills and Expertise
+            </label>
+            <input type="text" id="Skills and Expertise"
+            placeholder="Key skills and strengths" />
+
+                
+        </div>
+        <div class="form-control">
+            <label for="Linkedin Usage" id="Linkedin Usage">
+                Linkedin Usage
+            </label>
+            <input type="text" id=" Linkedin Usage"
+            placeholder="How frequently do you use Linkedin" />
+
+                
+        </div>
+        <div class="form-control">
+
+            <label>Languages and Frameworks known
+
+                <small>(Check all that apply)</small>
+
+            </label>
+
+            <label for="inp-1">
+
+                <input type="checkbox" name="inp">C
+
+                  </input>
+
+              </label>
+
+            <label for="inp-2">
+
+                <input type="checkbox" name="inp">C++
+
+                  </input>
+
+            </label>
+
+            <label for="inp-3">
+
+                <input type="checkbox" name="inp">C#
+
+                  </input>
+
+            </label>
+
+            <label for="inp-4">
+
+                <input type="checkbox" name="inp">Java
+
+                  </input>
+
+            </label>
+
+            <label for="inp-5">
+
+                <input type="checkbox" name="inp">Python
+
+                  </input>
+
+            </label>
+            <button type="submit" value="submit">
+
+                Submit
+    
+            </button>
+    
+
+
+        
+    </form>
+
+
+</body>
+</html>
