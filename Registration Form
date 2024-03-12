@@ -1,0 +1,74 @@
+<Html>  
+    <head>   
+    <title>  
+    Registration Page  
+    </title> 
+    <style>
+         
+        body{
+            padding: 5pt;
+            font-size: 12pt;
+        }
+
+    </style> 
+    </head>  
+    <body>  
+    <br>  
+    <br>  
+    <form> 
+        <h1> Registration Form </h1> 
+      
+    <label> Name </label>         
+    <input type="text" name="Name" size="15"/> <br> <br>  
+    <label> Password: </label>     
+    <input type="text" name="Password" size="15"/> <br> <br> 
+    Enter Address  
+    <br>  
+    <textarea cols="80" rows="5" value="address">  
+    </textarea>  
+    <br> <br>   
+     
+      
+    <label>   
+     Select Game:  
+    </label>   
+    <select>  
+    <option value="Game">Game</option>  
+    <option value="Football">Football</option>  
+    <option value="Hockey">Hockey</option>  
+    <option value="Cricket">Cricket</option>  
+    <option value="Chess">Chess</option>  
+    <option value="Badminton">Badminton</option>   
+    </select>  
+      
+    <br>  
+    <br>  
+    <label>   
+    Gender :  
+    </label><br>  
+    <input type="radio" name="male"/> Male <br>  
+    <input type="radio" name="female"/> Female <br>   
+    <br>  
+    <br>
+    <label>   
+        Select Age:  
+       </label>   
+       <select>   
+       <option value="Below 18">Below 18</option>  
+       <option value="18 to 30">18 to 30</option>  
+       <option value="30 to 40">30 to 40</option>  
+       <option value="40 above">40 above</option>     
+       </select>  
+       <label>   
+        Select Photo:
+       <select>  
+       <option value="Photo">Photo</option>  
+       <option value="Jpg">Jpg</option>  
+       <option value="png">png</option>      
+       </select>  
+       </label>
+
+    <h4 align="center"><input type="Submit">      <input type="Reset"></h4> 
+    </form>  
+    </body>  
+    </html>  
